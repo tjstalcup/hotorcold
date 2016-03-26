@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Hot or Cold</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<h2 id="feedback">Guessing Game</h2>
+				<form>
+					<p><input type="number" placeholder="Guess" min="1" max="100" class="form-control" id="guess"/></p>
+					<p><input type="submit" value="Guess" class="form-control btn btn-primary"/></p>
+				</form>
+
+				<div># of Guesses: <span id="count">0</span></div>
+				<div id="guesses"></div>	
+			</div>
+		</div>
+	</div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
